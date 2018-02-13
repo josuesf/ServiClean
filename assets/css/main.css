@@ -1,0 +1,59 @@
+
+#title-bar {
+    -webkit-app-region: drag;
+    position: fixed;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: #527cc7;
+    padding: none;
+    margin: 0px;
+    width: 100%;
+    z-index: 999999999;
+}
+
+#title { 
+    top: 0px;
+    left: 6px;
+    color:white;
+
+}
+
+#title-bar-btns {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 0px;
+    right: 6px;
+}
+
+.navDiv{
+  padding-top: 40px;
+}
+ 
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.nav-form{
+    height: 50px;
+    line-height: 50px;
+}
+
+
+ 

@@ -1,0 +1,28 @@
+{
+  "name": "servi_clean",
+  "version": "1.0.0",
+  "description": "Sis Lavanderias",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuesf/ServiClean.git"
+  },
+  "author": "Josue Farfan Lazo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josuesf/ServiClean/issues"
+  },
+  "homepage": "https://github.com/josuesf/ServiClean#readme",
+  "devDependencies": {
+    "electron": "^1.7.11",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "materialize": "^1.0.0",
+    "materialize-css": "^0.100.2"
+  },
+  "dependencies": {}
+}
